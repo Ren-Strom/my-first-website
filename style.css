@@ -1,0 +1,44 @@
+body {
+    background: #f4f4f9;
+}
+
+h1 {
+    text-align: center;
+} 
+
+.membership {
+Background-color: white;
+Width: 280px;
+Padding: 20px;
+border-radius: 15px;
+Box-shadow: 0px 4px 10px rgba(0,0,0,0,3);
+Margin: 30px auto;
+Text-align: center;
+Font-family: arial, sans-serif;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.basic {
+    width: 100px;
+    color: white;
+    background-color: black;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.pro {
+    width: 100px ;
+    color: white;
+    background-color: Black;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
