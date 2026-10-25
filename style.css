@@ -35,10 +35,50 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 5px;
 }
 
+.Master {
+    width: 100px;
+    color: white;
+    background-color: black;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
 .pricing-container {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px;
+}
+
+.basic-page {
+Background-color: #f0f2f5 ;
+Display: flex;
+Flex-direction: column;
+Justify-content: centre;
+Align-items: center;
+Min-height: 100vh;
+Font-family: arial, sans-serif;
+Margin: 0;
+}
+
+.basic-payout {
+Background-color: #ffffff;
+width: 320px;
+Padding: 25px;
+Border-radius: 15px;
+Box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+Text-align: center;
+}
+
+.basic-1button {
+Width: 100%;
+Pedding: 12px;
+Background-color: black;
+Color: white;
+Border: none;
+Border-radius: 8px;
+Font-weight: bold;
+Margin-top: 15px;
+Cursor: pointer;
 }
